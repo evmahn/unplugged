@@ -108,25 +108,38 @@ header,
   text:white;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width:90%;
 }
 
 header nav {
   display:flex;
   justify-content:space-around;
     align-items:center;
+    width:60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   align-items:center;
+  width: 45%;
 }
 
+header nav ul li {
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  padding:55px;
+}
 
 footer .social-icons {
   display: flex;
@@ -138,6 +151,16 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  align-items: center;
+}
+
+footer .content-wrapper {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 55%;
+  margin: 50px 0;
+  width:55%;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -149,6 +172,7 @@ h1, h2, h3, h4, h5, p {
   justify-content: center;
   flex-flow: row wrap;
   background-image: url("../img/hero.jpg");
+  height:500px;
 }
 
 /* Aside */
@@ -159,19 +183,34 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color:#527158;
+  padding: 20px;
 }
+
+input {
+  width:100%;
+}
+
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-    background-image: url("../img/background.jpg")
+  background-image: url("../img/background.jpg");
 }
 
-.features .features-items {
+.features .features-item-description {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width:55%;
+  padding: 80px;
+}
+
+.reviews .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
 }
 
 
@@ -179,6 +218,12 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color:#527158;
+  align-items:center;
+}
+
+.reviews img {
+  height:200px;
 }
 
 
@@ -209,6 +254,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 
